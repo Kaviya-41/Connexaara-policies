@@ -1,0 +1,173 @@
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* HEADER (single definition — removed duplicate) */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* LOGOS */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.logo-side {
+  width: 120px;
+  height: auto;
+}
+
+/* BRAND TEXT */
+.brand h1 {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Poppins", "Inter", system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #0d47a1;
+}
+
+/* OPTIONAL TAGLINE */
+.tagline {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 2px;
+  font-family: "Poppins", "Inter", system-ui, sans-serif;
+}
+
+/* PAGE TITLE (if you use .header h1 separately somewhere) */
+.header h1 {
+  font-size: 32px;
+  color: #0d47a1;
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+/* HEADINGS */
+h2, h3, h4 {
+  color: #333;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/* TEXT */
+p {
+  color: #555;
+  line-height: 1.75;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* LISTS */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* DATE */
+.date {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* LINE */
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* NAVIGATION TABS */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #555;
+  transition: 0.3s;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.nav button:hover {
+  color: #0d47a1;
+}
+
+.nav button.active {
+  color: #0d47a1;
+  font-weight: 700;
+  border-bottom: 2px solid #0d47a1;
+}
+
+/* SECTION SWITCHING */
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}

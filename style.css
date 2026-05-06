@@ -171,3 +171,14 @@ hr {
 .section.active {
   display: block;
 }
+.header {
+  gap: 0;
+}
+
+.logo-side {
+  margin-right: -15px;
+}
+
+.brand h1 {
+  letter-spacing: 2px; /* optional for clean look */
+}
